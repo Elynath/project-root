@@ -18,11 +18,6 @@ class Library {
 
 class Library implements ILibrary {
     books: Book[];
-
-    constructor() {
-        this.books = [];
-    }
-
     
     addBook(book: Book): void {
         this.books.push(book);
